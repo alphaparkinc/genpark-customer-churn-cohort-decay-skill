@@ -1,0 +1,26 @@
+{
+  "name": "genpark-customer-churn-cohort-decay-skill",
+  "version": "1.0.0",
+  "description": "GenPark AI Agent Skill - Cohort registration customer retention decay estimator.",
+  "author": "genpark",
+  "category": "analytics",
+  "tags": [
+    "cohort",
+    "churn"
+  ],
+  "inputs": {
+    "initial_size": {
+      "type": "integer"
+    },
+    "decay_rate": {
+      "type": "number"
+    }
+  },
+  "outputs": {
+    "remaining_users": {
+      "type": "integer"
+    }
+  },
+  "entrypoint": "client.py",
+  "example": "example_usage.py"
+}
